@@ -1,0 +1,152 @@
+/* 
+
+COLOR CODES:
+#FFFFFF	White
+#2192de Light Blue
+#293445 Dark Blue
+
+*/
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-image: url(../background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #E51500;
+    border-top: 5px solid #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    padding: 25px 10px;
+    font-size: 4em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    border-bottom: 10px solid #53a5db;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    color: white;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#293445;
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+    
+ul li {
+    float:left;
+    border-right: 1px solid white;
+    
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul li a {
+    display:block;
+    text-align:center;
+    padding: 20px 30px;
+    border: 1px solid transparent;
+    color: white;
+    
+}
+
+ul li.active a {
+    background-color: white;
+    color: #000;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+
+.button{
+    background-color:#293445;
+    border: none;
+    color:white;
+    padding: 20px 30px;
+    text-decoration:none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color:black;
+    background-color:white;
+    transition: 0.6s ease;
+}
+
+
+
+.logo img {
+    margin-top: -22px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+#about-me {
+    
+    position: absolute;
+    top:30%;
+    margin-left:2%;
+    padding-left:55px;
+    padding-right:55px;
+    font-size: 2em;
+
+}
